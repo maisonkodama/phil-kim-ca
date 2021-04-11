@@ -1,20 +1,61 @@
 * {
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-    text-align: center;
-    color: rgba(189, 204, 153, 0.918);
+body {
+    color: white;
+    background-color: black;
+    padding: 0;
 }
 
-p {
-    margin-left: 6em;
+ul {
+    padding-inline-start: 0;
 }
 
 #topNav {
     display: flex;
+    background-color: rebeccapurple;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .nav-link {
     display: inline;
+    margin:  5px 10px 5px 10px;
+}
+
+.nav-link>a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.nav-link>a:hover {
+    color: rgba(210, 236, 148, 0.918);
+    font-weight: bold;
+}
+
+#mainWrap {
+    flex-direction: column;
+    margin-top: 5em;
+}
+
+#mainTitle {
+    text-align: center;
+    color: rgba(189, 204, 153, 0.918);
+    display: block;
+    font-size: 2em;
+    min-width: 50%;
+}
+
+#mainContent {
+
+}
+
+#introText {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
