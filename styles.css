@@ -5,38 +5,40 @@
     margin: 0;
 }
 
-body {
-    color: white;
-    background-color: black;
+.link {
+    text-decoration: none;
 }
 
-a {
-    text-decoration: none;
+.link:hover,
+.link:active {
+    font-weight: bold;
+}
+
+.link__text--navbar {
     color: lightgray;
 }
 
-a:hover,
-a:active {
-    color: rgba(210, 236, 148, 0.918);
-    font-weight: bold;
+.link__text--sublink {
+    color: rgba(99, 107, 80, 0.781);
 }
 
 /* topbar styles */
 
-nav {
+.navbar {
     font-size: 0.75em;
     position: fixed;
     top: 0;
     background-color: black;
     width: 100%;
     display: flex;
+    padding: 0 0 17px 0;
 }
 
-nav > ul {
+.navbar__links {
     padding-top: 17px;
 }
 
-nav > p {
+.navbar__text {
     padding-top: 15px;
     margin-left: 25px;
     margin-right: 25px;
@@ -45,23 +47,20 @@ nav > p {
     font-weight: bold;
 }
 
-.nav-link {
+.navbar__link {
     display: inline;
     padding:  5px 10px 5px 10px;
 }
 
 /* main body styles */
 
-main {
+.main__container {
     padding-top: 7vh;
-}
-
-#mainWrap {
     flex-direction: column;
     height: 100vmin;
 }
 
-#mainTitle {
+.main__title {
     text-align: center;
     color: rgba(189, 204, 153, 0.918);
     display: block;
@@ -70,11 +69,11 @@ main {
     padding-top: 35vh;
 }
 
-#mainText {
+.main__container--text {
     padding-top: 20px;
 }
 
-#introText {
+.main__text {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -83,25 +82,17 @@ main {
 
 /* footer styles */
 
-footer {
+.footer__container {
+    display: flex;
     text-align: center;
-    font-size: 0.75em;
     margin-bottom: 0;
-    bottom: 0;
 }
 
-#githubRepo {
-    text-align: center;
-    font-size: 0.9em;
+.footer__text {
+    font-size: 0.8em;
+    margin: auto;
 }
 
-#mainFooterContent {
-        display: flex;
-}
-
-#copyright,
-#footerLinks {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+.footer__links {
+    margin: auto;
 }

@@ -14,24 +14,24 @@
 
 <body>
     <aside>
-        <div class="navbar">
-            <nav>
+        <div class="container">
+            <nav class="navbar">
                 <p class="navbar__text">
                     Phil Kim
                 </p>
-                <ul>
-                    <li class="nav-link">
-                        <a href="/index.html">
+                <ul class="navbar__links">
+                    <li class="navbar__link">
+                        <a href="/index.html" class="link link__text--navbar">
                             Home
                         </a>
                     </li>
-                    <li class="nav-link">
-                        <a href="/portfolio.html">
+                    <li class="navbar__link" >
+                        <a href="/portfolio.html" class="link link__text--navbar">
                             Portfolio
                         </a>
                     </li>
-                    <li class="nav-link">
-                        <a href="/social.html">
+                    <li class="navbar__link">
+                        <a href="/social.html" class="link link__text--navbar">
                             Social
                         </a>
                     </li>
@@ -40,40 +40,38 @@
         </div>
     </aside>
     <main>
-        <div id="mainWrap">
-            <div id="mainContent">
-                <h1 id="mainTitle">Hello</h1>
-                <div id="mainText">
-                    <p id="introText">
+        <div class="main__container">
+                <h1 class="main__title">Hello</h1>
+                <div class="main__container--text">
+                    <p class="main__text">
                         Welcome to my homepage. I have been learning front-end code for a while and decided to do
                         something with it.
                     </p>
                 </div>
-            </div>
         </div>
             <footer>
-                <div id="mainFooterContent">
-                    <p id="copyright">
+                <div class="footer__container">
+                    <p class="footer__text">
                         &copy; 2021 Phil Kim - philkim.ca
                     </p>
             
-                    <p id="githubRepo">
+                    <p class="footer__text">
                         Public Github repository for this page can be found <a href="https://github.com/maisonkodama/phil-kim-ca"
-                            target="_blank">here</a>
+                        class="link link__text--sublink" target="_blank">here</a>
                     </p>
-                    <ul id="footerLinks">
-                        <li class="nav-link">
-                            <a href="/index.html">
+                    <ul class="footer__links">
+                        <li class="navbar__link">
+                            <a href="/index.html" class="link link__text--sublink footer__text">
                                 Home
                             </a>
                         </li>
-                        <li class="nav-link">
-                            <a href="/portfolio.html">
+                        <li class="navbar__link">
+                            <a href="/portfolio.html" class="link link__text--sublink footer__text">
                                 Portfolio
                             </a>
                         </li>
-                        <li class="nav-link">
-                            <a href="/social.html">
+                        <li class="navbar__link">
+                            <a href="/social.html" class="link link__text--sublink footer__text">
                                 Social
                             </a>
                         </li>
