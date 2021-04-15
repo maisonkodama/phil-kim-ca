@@ -49,8 +49,9 @@
 
 .main__container {
     padding-top: 35vh;
+    display: flex;
     flex-direction: column;
-    height: 100vmin;
+    min-height: 100vh;
 }
 
 .main__title {
