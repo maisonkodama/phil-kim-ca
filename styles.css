@@ -45,11 +45,11 @@
 }
 
 .main__header {
-    color: #2A7D54;
     text-align: right;
 }
 
 .main__h1 {
+    color: #2A7D54;
     font-size: 2.5em;
     padding-top: 5px;
 }
@@ -60,8 +60,7 @@
 
 .main__container--body {
     width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 25px auto 25px auto;
 }
 
 .main__h2 {
@@ -70,14 +69,17 @@
 }
 
 .main__content-container {
-    margin-top: 10x;
     padding: 5px;
     border-radius: 5px;
     color: #3B2C35;
 }
 
+article {
+    margin: 10px;
+}
+
 .main__text {
-    margin: 10px 0 10px 0;
+    margin: 10px 5px 10px 5px;
 }
 
 /* footer styles */
