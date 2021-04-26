@@ -15,6 +15,9 @@
     font-weight: bold;
 }
 
+.hidden {
+    display: none;
+}
 
 /* topbar styles */
 
