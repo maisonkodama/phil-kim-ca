@@ -57,6 +57,10 @@
     padding-top: 5px;
 }
 
+.main__h1:hover {
+    cursor: pointer;
+}
+
 .main__subtitle {
     font-size: .75em;
 }
