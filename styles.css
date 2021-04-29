@@ -11,6 +11,7 @@
 }
 
 .link:hover,
+.link:target,
 .link:active {
     font-weight: bold;
 }
